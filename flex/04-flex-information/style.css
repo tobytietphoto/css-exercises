@@ -7,9 +7,37 @@ img {
   height: 100px;
 }
 
-.title {
+div.title {
+  flex: 1 1 auto;
+  justify-content: center;
+  background-color: green;
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  text-align: column;
+  gap: 52px;
+  height: 100px;
+  flex-wrap: wrap;
+}
+
+div.info {
+  display: flex;
+  flex: 1 1 200px;
+  background-color: red;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title, .info {
+  display: flex;
 }
 
 /* do not edit this footer */
